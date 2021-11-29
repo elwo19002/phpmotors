@@ -1,0 +1,137 @@
+footer{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.myaccount{
+    float: right;
+    padding-top: 30px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation{
+    background-color:rgb(68, 68, 68);
+}
+
+nav{
+    display: block;
+    height: 50px;
+    color: white;
+    max-width: 100%;
+}
+
+nav li{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    padding: 1rem 2rem;
+    float: left;
+    max-width: 100%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #4c96d7;
+    color: black;
+}
+
+.delorean{
+    max-width: 100%;
+}
+
+.p2{
+    color: #16558d;
+    font-size: 28px;
+  }
+
+.p3{
+    color: #16558d;
+    font-size: 20px;
+}
+
+.owntoday{
+    background-color: #4c96d7;
+    width: 150px;
+    height: 75px;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+
+  .grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.vehicleDisplay li{
+    display: inline-block;
+    list-style-type: none;
+    border:solid;
+    margin: 10px;
+    padding: 20px;
+    max-width: fit-content;
+    text-align: center;
+}
+
+
+.vehicleDisplay img{
+    height: 125px;
+}
+
+.carDetailImage{
+    max-width: 100%;
+    float: right;
+    max-height: 300px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #2196F3;
+        padding: 10px;
+        grid-gap: 10px;
+      }
+    
+      .grid-container > div {
+        background-color: white;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+      nav{
+        margin-top: 20px;
+        display: inline-block;
+        height: 120px;
+        color: white;
+        max-width: 100%;
+    }
+    
+    nav li{
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        padding: 1rem 2rem;
+        max-width: 100%;
+    }
+}
